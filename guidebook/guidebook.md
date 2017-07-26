@@ -1,10 +1,10 @@
 # Context
 1. What is this software project/product/system all about?
 1. What is it that is being built?
-1. How does it fit into the existing envrionment? (e.g. systems, business processes, etc)
+1. How does it fit into the existing environment? (e.g. systems, business processes, etc)
 1. Who is using it? (users, roles, actors, personas, etc)
-1. Context Digram should be included
-1. Techincal and non-technical audience
+1. Context Diagram should be included
+1. Technical and non-technical audience
 
 # Functional Overview
 1. Highlight and summarize major functions of the software
@@ -21,14 +21,14 @@
 
 # Quality Attributes
 1. Summarize key quality attributes
-1. Peformance (eg latency and throughput)
+1. Performance (eg latency and throughput)
 1. Scalability (eg data and traffic volumes)
 1. Availability (eg uptime, downtime, scheduled maintenance, 24x7, 99.9%, etc)
 1. Security (eg authentication, authorization, data confidentiality, etc)
 1. Extensibility
 1. Auditing
 1. Monitoring and management
-1. Reliabilitiy
+1. Reliability
 1. Failover/disaster recovery targets (eg manual vs automatic, how long will it take?)
 1. Business continuity
 1. Interoperability
@@ -62,7 +62,7 @@
 1. Architectural layering strategy
 1. No business logic in views
 1. No database access in views
-1. Use of intefaces
+1. Use of interfaces
 1. Always use an ORM
 1. Dependency injection
 1. The Hollywood principle
@@ -90,7 +90,7 @@
 1. Technical people only
 
 # External Interfaces
-1. What are the key exteranal interfaces?
+1. What are the key external interfaces?
   * system-to-system
   * publicly exposed APIs
   * exported files
@@ -113,7 +113,7 @@
 1. Technical people only
 
 # Code
-1. Describe implementation details for imporant/complex parts of the sytem
+1. Describe implementation details for important/complex parts of the system
 1. homegrown frameworks
 1. WebMVC frameworks
 1. approach to security
@@ -121,7 +121,7 @@
 1. component frameworks
 1. configuration mechanisms
 1. architectural layering
-1. exceptions and loggin
+1. exceptions and logging
 1. how patterns and principals are implemented
 1. short description of each element using diagrams as necessary
 1. Technical people only
@@ -132,7 +132,7 @@
 1. Where is data stored?
 1. Who owns the data?
 1. How much storage space is needed for the data?
-1. Are there any requirments for long term archival?
+1. Are there any requirements for long term archival?
 1. Are there any requirements for log files and audit trails?
 1. Are flat files being used for storage?
 1. short description of each element using diagrams as necessary
@@ -141,23 +141,23 @@
 # Infrastructure Architecture
 1. Describe the physical/virtual hardware and networks the software will be deployed to.
 1. Is there a clear physical architecture?
-1. What hardware does this includ across all tiers?
-1. Does it cater for redudundancy, failover and disaster recovery if applicable?
+1. What hardware does this include across all tiers?
+1. Does it cater for redundancy, failover and disaster recovery if applicable?
 1. Is it clear how the chosen hardware components have been sized and selected?
 1. If multiple servers and sites are used, what are the network links between them?
 1. Who is responsible for support and maintenance of the infrastructure?
 1. Are there central teams to look after common infrastructure?
 1. Who owns the resources?
 1. Are there sufficient environments for development, testing, acceptance, pre-production, production?
-1. Provde an infrastructure/network diagram with a short narrative
+1. Provide an infrastructure/network diagram with a short narrative
 1. Technical people only, including Operations
 
 # Deployment
 1. Describe the mapping between software (containers) and the infrastructure.
 1. How and where is the software installed and configured?
-1. Is it clear how the software will be deployed across the infrastructure elements described in the Infrastructre Architecture section?
-1. What are the opetions and have they been documented?
-1. Is it understaood how memory and CPU will be partitioned between the processes running on a single piece of infrastructure?
+1. Is it clear how the software will be deployed across the infrastructure elements described in the Infrastructure Architecture section?
+1. What are the options and have they been documented?
+1. Is it understood how memory and CPU will be partitioned between the processes running on a single piece of infrastructure?
 1. Are any containers/components running in an active-active, active-passive, hot-standby, cold-standby formation?
 1. Has the deployment and rollback strategy been defined?
 1. What happens in the event of a software or infrastructure failure?
@@ -173,7 +173,7 @@
 1. Has is this achieved across all tiers of the architecture?
 1. How can Operations diagnose problems?
 1. Where are errors and information logged?
-1. Do configuratin changes require a restart?
+1. Do configuration changes require a restart?
 1. Are there any manual housekeeping tasks that need to be performed on a regular basis?
 1. Does old data need to be periodically archived?
 1. A simple narrative should suffice here
