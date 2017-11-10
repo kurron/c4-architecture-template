@@ -21,18 +21,18 @@
 
 # Quality Attributes
 1. Summarize key quality attributes
-1. Performance (eg latency and throughput)
-1. Scalability (eg data and traffic volumes)
-1. Availability (eg uptime, downtime, scheduled maintenance, 24x7, 99.9%, etc)
-1. Security (eg authentication, authorization, data confidentiality, etc)
+1. Performance (e.g. latency and throughput)
+1. Scalability (e.g. data and traffic volumes)
+1. Availability (e.g. uptime, downtime, scheduled maintenance, 24x7, 99.9%, etc)
+1. Security (e.g. authentication, authorization, data confidentiality, etc)
 1. Extensibility
 1. Auditing
 1. Monitoring and management
 1. Reliability
-1. Failover/disaster recovery targets (eg manual vs automatic, how long will it take?)
+1. Failover/disaster recovery targets (e.g. manual vs automatic, how long will it take?)
 1. Business continuity
 1. Interoperability
-1. Legal, compliance and regulatory requirements (eg data protection act)
+1. Legal, compliance and regulatory requirements (e.g. data protection act)
 1. I18n and L10n
 1. Accessibility
 1. Usability
@@ -40,13 +40,13 @@
 1. Technical people only
 
 # Constraints
-1. Summarize the constraints your're working in and some of the decisions that have been made for you
+1. Summarize the constraints your are working in and some of the decisions that have been made for you
 1. Time, budget and resources
 1. Approved technology lists and technology constraints
 1. Target deployment platform
 1. Existing systems and integration standards
-1. Local standards (eg development, coding, etc)
-1. Public standards (eg. HTTP, SOAP, XML, XML Schema, WSDL, etc)
+1. Local standards (e.g. development, coding, etc)
+1. Public standards (e.g. HTTP, SOAP, XML, XML Schema, WSDL, etc)
 1. Standard protocols
 1. Standard message formats
 1. Size of software development team
@@ -69,9 +69,9 @@
 1. High cohesion, low coupling
 1. Follow SOLID
 1. DRY
-1. Ensure all components are stateless (eg to ease scaling)
+1. Ensure all components are stateless (e.g. to ease scaling)
 1. Prefer a rich domain model
-1. Prefer an anaemic domain model
+1. Prefer an anemic domain model
 1. Prefer stored procedures
 1. Avoid stored procedures
 1. Don't reinvent the wheel
@@ -86,7 +86,7 @@
 1. Is it clear how the system works from the "30,000 foot view"?
 1. Does it show major containers and technology choices?
 1. Does it show major components and their interactions?
-1. What are the key internal interfaces? (eg web service between web and business tiers)
+1. What are the key internal interfaces? (e.g. web service between web and business tiers)
 1. Technical people only
 
 # External Interfaces
@@ -97,7 +97,7 @@
 1. Has each interface been thought about from a technical perspective?
   * what is the technical definition of an interface?
   * if messaging is being used, which queues and topics are components using to communicate?
-  * what format are the messages (eg. plain text, Avro, JSON)?
+  * what format are the messages (e.g. plain text, Avro, JSON)?
   * are they synchronous or asynchronous?
   * are asynchronous messaging links guaranteed?
   * are subscribers durable where necessary?
