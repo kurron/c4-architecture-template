@@ -1,0 +1,36 @@
+:toc:
+:toc-placement!:
+
+Here is my preamble paragraph, but I could really place the TOC anywhere! Lorem ipsum foo bar baz.
+
+toc::[]
+
+[NOTE]
+====
+A sample note admonition.
+We can use gemoji icons in the Asciidoctor markup.
+We assign an icon name to the document
+attributes `tip-caption`, `note-caption` and `important-caption`.
+====
+
+TIP: It works!
+
+IMPORTANT: Asciidoctor is awesome, don't forget!
+
+CAUTION: Don't forget to add the `...-caption` document attributes in the header of the document on GitHub.
+
+WARNING: You have no reason not to use Asciidoctor.
+
+image::https://avatars3.githubusercontent.com/u/3137042?v=3&s=200[]
+
+[source]
+ ----
+\ifdef::env-github[] <1> (1)
+:imagesdir: https://gist.githubusercontent.com/path/to/gist/revision/dir/with/all/images
+endif::[]
+\ifndef::env-github[] <2>
+:imagesdir: ./
+endif::[]
+ ----
+<1> Use the `ifdef` to customize for online rendering (2)
+<2> Use the `ifndef` to customize for offline
