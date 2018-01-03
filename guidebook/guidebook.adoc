@@ -40,3 +40,30 @@ endif::[]
  ----
 <1> Use the `ifdef` to customize for online rendering (2)
 <2> Use the `ifndef` to customize for offline
+
+= Document Title
+Ron Kurr <rkurr@jvmguy.com>
+0.0.1.MILESTONE, 2012-01-01
+
+== Level 1 Section
+
+=== Level 2 Section
+
+==== Level 3 Section
+
+===== Level 4 Section
+
+====== Level 5 Section
+
+.Block Title
+- Learn the AsciiDoc syntax
+- Install AsciiDoc
+- Write my document in AsciiDoc
+
+# Context
+. What is this software project/product/system all about?
+. What is it that is being built?
+. How does it fit into the existing environment? (e.g. systems, business processes, etc)
+. Who is using it? (users, roles, actors, personas, etc)
+. Context Diagram should be included
+. Technical and non-technical audience
